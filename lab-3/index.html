@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>lab-3</title>
+
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="input-window">
+            <div class="input-container">
+                Prob 1
+                <input id="input-1" class="input-field" type="text" />
+            </div>
+            <div class="input-container">
+                Prob 2
+                <input id="input-2" class="input-field" type="text" />
+            </div>
+            <div class="input-container">
+                Prob 3
+                <input id="input-3" class="input-field" type="text" />
+            </div>
+            <div class="input-container">
+                Prob 4
+                <input id="input-4" class="input-field" type="text" />
+            </div>
+            <div class="input-container">
+                Prob 5
+                <button class="auto-btn" disabled>
+                    Auto
+                </button>
+            </div>
+            <div class="input-container">
+                Number of trials
+                <input id="trials-number" class="input-field" type="text" />
+            </div>
+            <button class="start-btn">
+                Start
+            </button>
+        </div>
+
+        <div class="schedule-window">
+            <div class="schedule-container">
+                <div class="schedule-title">freq.</div>
+                <div class="row-container">
+                    <span>1</span>
+                    <hr>
+                </div>
+                <div class="row-container">
+                    <span>0.8</span>
+                    <hr>
+                </div>
+                <div class="row-container">
+                    <span>0.6</span>
+                    <hr>
+                </div>
+                <div class="row-container">
+                    <span>0.4</span>
+                    <hr>
+                </div>
+                <div class="row-container">
+                    <span>0.2</span>
+                    <hr>
+                </div>
+                <div class="row-container">
+                    <span>0</span>
+                    <hr>
+                </div>
+                <div class="column-container">
+                    <div class="column-item">
+                        <div class="column hidden">
+                            <div class="column-val">0.2</div>
+                            <div class="column-graph"></div>
+                        </div>
+                        <span>1</span>
+                    </div>
+                    <div class="column-item">
+                        <div class="column hidden">
+                            <div class="column-val">0.2</div>
+                            <div class="column-graph"></div>
+                        </div>
+                        <span>2</span>
+                    </div>
+                    <div id="column-3" class="column-item">
+                        <div class="column hidden">
+                            <div class="column-val">0.2</div>
+                            <div class="column-graph"></div>
+                        </div>
+                        <span>3</span>
+                    </div>
+                    <div id="column-4" class="column-item">
+                       <div class="column hidden">
+                            <div class="column-val">0.2</div>
+                            <div class="column-graph"></div>
+                        </div>
+                        <span>4</span>
+                    </div>
+                    <div id="column-5" class="column-item">
+                        <div class="column hidden">
+                            <div class="column-val">0.2</div>
+                            <div class="column-graph"></div>
+                        </div>
+                        <span>5</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
