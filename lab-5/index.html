@@ -4,9 +4,55 @@
 <head>
     <meta charset="utf-8">
     <title>lab-5</title>
+
+    <script src="https://kit.fontawesome.com/334b60dce3.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="index.css" />
 </head>
 <body>
+    <div class="content-wrapper">
+        <button class="play-button">
+            <i class="fa fa-repeat" aria-hidden="true"></i>
+            PLAY AGAIN
+        </button>
 
+        <div class="table-title">RESULT</div>
+        <table class="result-table">
+            <thead>
+            <th>POS</th>
+            <th>TEAM</th>
+            <th>POINTS</th>
+            <th>WON</th>
+            <th>LOST</th>
+            </thead>
+            <tbody class="result-table-body">
+            <tr class="result-table-row hidden">
+                <td class="result-table-row-pos"></td>
+                <td class="result-table-row-team"></td>
+                <td class="result-table-row-won"></td>
+                <td class="result-table-row-lost"></td>
+                <td class="result-table-row-points"></td>
+            </tr>
+            </tbody>
+        </table>
+
+        <div class="table-title">MATCHES</div>
+        <table class="matches-table">
+            <thead>
+            <th>FIRST TEAM</th>
+            <th>GOALS</th>
+            <th>SECOND TEAM</th>
+            <th>GOALS</th>
+            </thead>
+            <tbody class="matches-table-body">
+            <tr class="matches-table-row hidden">
+                <td class="matches-table-row-first-team"></td>
+                <td class="matches-table-row-first-points"></td>
+                <td class="matches-table-row-second-team"></td>
+                <td class="matches-table-row-first-points"></td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
     <script src="index.js"></script>
 </body>
 </html>

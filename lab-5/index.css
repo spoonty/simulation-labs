@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Tahoma;
+    color: white;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    position: relative;
+}
+
+body::before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: -1;
+
+    background-image: url("https://catherineasquithgallery.com/uploads/posts/2021-02/1612690143_171-p-zelenii-futbolnii-fon-236.jpg");
+    background-size: cover;
+    background-position: center center;
+
+    filter: blur(5px) brightness(95%);
+}
+
+.content-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.play-button {
+    font-size: 19px;
+    font-weight: bold;
+    padding: 10px 15px;
+    margin-bottom: 50px;
+    background: rgba(51, 194, 17, 0.5);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.play-button:hover {
+    background: rgba(51, 194, 17, 0.45);
+}
+.play-button:active {
+    background: rgba(51, 194, 17, 0.4);
+}
+
+.content-wrapper {
+    padding: 50px;
+}
+
+.table-title {
+    font-size: 21px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+table {
+    width: 80%;
+    table-layout: fixed;
+    margin-bottom: 50px;
+}
+
+table th {
+    color: white;
+    font-weight: bold;
+    padding: 5px;
+    background: rgba(51, 194, 17, 0.5);
+}
+
+table td {
+    padding: 5px 10px;
+    text-align: left;
+}
+
+table tbody tr:nth-child(odd) {
+    background: rgba(51, 194, 17, 0.5);
+}
+
+table tbody tr:nth-child(even) {
+    background: rgba(35, 133, 12, 0.5);
+}
+
+.hidden {
+    display: none;
+}
