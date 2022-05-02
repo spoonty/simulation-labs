@@ -61,14 +61,14 @@ const calcChiSquare = (statistic, N, p) => {
     let chiSquare = 0;
 
     for (let i = 0; i < p.length; i++) {
-        chiSquare += Math.pow(statistic[i], 2) / (N * p[i]);
+        chiSquare += (Math.pow(statistic[i], 2) / (N * p[i]));
     }
 
     return chiSquare - N;
 }
 
 const calcResults = (p, statistic, N) => {
-    let x = [1, 2, 3, 4, 5, 6];
+    let x = [1, 2, 3, 4, 5];
 
     let p_ = statistic.map(x => x / N);
 

@@ -16,3 +16,6 @@ Application "Tell me 'yes' or 'no'"
 * Calculate empirical probabilities, sample mean and variance, their relative errors
 * Calculate the chi-squared statistic and apply the chi-squared test for different values of N (N = 10, 100, 1,000, 10,000)
 * Draw a conclusion
+
+### Fifth laboratory
+Use Poisson distribution for the number of goals in a match
