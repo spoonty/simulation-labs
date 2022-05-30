@@ -19,3 +19,15 @@ Application "Tell me 'yes' or 'no'"
 
 ### Fifth laboratory
 Use Poisson distribution for the number of goals in a match
+
+### Sixth laboratory
+Simulate normal RV using any method. 
+Perform statistics processing of the results:
+* Build histogram; 
+* Estimate accuracy (relative errors, chi-squared test) for sample size equal to 10, 100, 1000, 10000;
+* Draw a conclusion.
+
+# simulation-module-4
+
+### First laboratory
+Simulate with visualization  (use timer). Make statical processing. Show stationary distribution
