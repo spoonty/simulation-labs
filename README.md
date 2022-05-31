@@ -31,3 +31,6 @@ Perform statistics processing of the results:
 
 ### First laboratory
 Simulate with visualization  (use timer). Make statical processing. Show stationary distribution
+
+### Second laboratory
+Modify currency exchange model using Geometric Brownian motion
